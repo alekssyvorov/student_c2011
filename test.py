@@ -21,3 +21,6 @@ class Series:
 film_1 = Films()
 print(film_1.name)
 print(film_1.year)
+print(film_1.year)
+print(film_1.year)
+print(film_1.year)
