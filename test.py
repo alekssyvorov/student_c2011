@@ -1,26 +1,7 @@
-class Films:
-    Duration = "long"
-    Episodes = "less than 3"
-    Plot = "preconceived"
+stud = {"name": "Oleg", "study": ["Python", "C++", "Java"]}
 
-    def __init__(self):
-        self.name = "fight club"
-        self.year = "1999"
-        self.main_character = "Narrator"
-
-class Series:
-    duration = "short"
-    episodes = "more than 3"
-    plot = "made up on the fly"
-
-    def __init__(self):
-        self.name = "Simpsons"
-        self.year = "1989"
-        self.main_character = "Simpson Family"
-
-film_1 = Films()
-print(film_1.name)
-print(film_1.year)
-print(film_1.year)
-print(film_1.year)
-print(film_1.year)
+print(stud["name"])
+print(stud["study"])
+print(stud["study"][0])
+print(stud["study"][1])
+print(stud["study"][2])

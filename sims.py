@@ -69,7 +69,8 @@ class Human:
             self.money -= 5
     # Дописати ці 3 методи
     def chill(self):
-        pass
+        self.gladness += 10
+        self
     def clean_home(self):
         pass
     def to_repair(self):
